@@ -1,0 +1,115 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.card-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  background-color:#ffffff;
+  border-radius: 20px;
+  width:300px;
+  text-align: center;
+  border:2px solid #c3f0c6; 
+}
+ li{
+  list-style: none;
+  font-size: 17px;
+ }
+
+ 
+.cards-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content: center;
+}
+
+.filter-wrapper{
+  display:flex;
+  justify-content: space-around;
+  gap:10px;
+  flex-wrap: wrap;
+  margin:20px;
+
+}
+
+.wrapper-filterPrice{
+  padding:10px;
+  text-align: center;
+  border:1px solid black;
+
+}
+
+.wrapper-filterPrice input{
+  width:90%;
+  padding:8px;
+}
+
+ .price{
+  font-weight:500;
+  padding-bottom:2px;
+ }
+
+select,.wrapper-filterPrice,#productName {
+  width:300px;
+}
+select,.wrapper-filterPrice, button{
+  background-color: #c3f0c6; 
+}
+input{
+  border:1px solid gray;
+  font-size: 16px;
+}
+
+#productName{
+  padding:10px;
+}
+ select{
+  align-self: flex-start;
+    font-size:16px;
+    border:2px solid #b2eeac;
+    padding:5px;
+    cursor:pointer;
+  }
+  
+  select>option {
+    background-color: #b8e1ba;
+   
+  }
+
+  button{
+    width:100px;
+    padding:10px;
+    font-size: 18px;
+    font-weight:600;
+    border-radius: 10px;
+    border:none;
+    
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+    gap:10px;
+  }
+
+  button:disabled{
+    background-color:whitesmoke;
+  }
+
+  
+
+
+
